@@ -1,0 +1,36 @@
+---
+title: 内容地图
+type: index
+updated: 2026-05-29
+---
+
+# Blender × MMD 建模知识库 — 内容地图
+
+> 维护说明见 [CLAUDE.md](CLAUDE.md);用法见 [README.md](README.md);摄入记录见 [log.md](log.md)。
+> status: `stub` 占位 · `draft` 种子内容待校正 · `stable` 已用可靠来源核实。
+
+## 概念 (concepts)
+- [[pmx-format]] — PMX 模型格式总览 · *draft*
+- [[骨骼-bones]] — 骨骼命名、IK、付与 · *draft*
+- [[表情-morphs]] — 表情/变形(顶点/骨骼/材质/UV/组) · *draft*
+- [[物理-physics]] — 刚体与关节 · *draft*
+- [[材质-materials]] — Toon / Sphere(SPH/SPA)/ 描边 · *draft*
+- [[权重-weights]] — 权重与 BDEF/SDEF · *draft*
+
+## 工具 (tools)
+- [[mmd_tools]] — Blender 的 MMD 核心插件(导入/导出) · *draft*
+- [[cats-blender-plugin]] — 模型清理优化 · *stub*
+- [[pmxeditor]] — PMX 精修工具 · *stub*
+
+## 流程 (workflows)
+- [[blender-to-pmx-导出流程]] — 从建模到 MMD 可用的端到端路线 · *draft*
+
+## 排查 (troubleshooting)
+- [[troubleshooting/README|问题排查索引]] · *stub*
+
+---
+
+## 现状与下一步
+- 现有内容为**种子页面**(基于通用领域知识),用来固化页面约定与交叉引用结构。
+- 它们都标了「待补充」点。请用你的可靠资料 `ingest` 来校正版本敏感信息(尤其 Blender / mmd_tools 版本兼容性)和具体操作步骤。
+- 建议优先补:① 你用的 Blender + mmd_tools 版本;② 半标准骨架清单;③ 你常踩的坑(进 troubleshooting)。
