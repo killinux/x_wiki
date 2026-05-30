@@ -69,4 +69,4 @@ XPS 使用 render group 编号控制材质行为(支持法线贴图、specular �
 - [ ] 清掉 `_N`(法线)、`_AO`、`_s`(specular)等 MMD 不吃的贴图引用
 - [ ] 确认两面需求(XPS 默认全両面,实心部件可关以省面/避免内壁穿透)
 
-> 待补充:mmd_tools 材质面板各字段 ↔ PMX 字段的精确对应——ingest 插件文档后补全。
+> PMX 材质各字段(diffuse/specular/ambient、sphere mode 0–3、toon 引用、绘制标志位 両面/描边/阴影)的二进制定义见 [[pmx-format]] 的「材质字段」一节;mmd_tools 面板里对应的就是这些字段(面板用语随插件版本略有差异,以本机版本为准)。
