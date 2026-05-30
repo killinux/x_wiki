@@ -7,3 +7,4 @@
 | 2026-05-29 | (初始化) | 搭建骨架 + 写入种子页面 | index, concepts/*, tools/mmd_tools, workflows/blender-to-pmx |
 | 2026-05-30 | 通用领域知识 | 新建 XPS→MMD 转换知识页面(种子) | concepts/xps-format, concepts/xps-骨骼映射, concepts/xps-材质差异, tools/xps-tools-blender, workflows/xps-to-mmd-流程, troubleshooting/xps-转换常见问题 |
 | 2026-05-30 | (扩展) | 现有页面补充 XPS 转换相关内容 | concepts/骨骼-bones, concepts/权重-weights, concepts/材质-materials, tools/cats-blender-plugin, index |
+| 2026-05-30 | 联网核实(MMD-Blender GitHub / extensions.blender.org / teamneoneko+feilen GitHub / vpvpwiki 394 / MMD swamp / tktk blog) | ingest:新建准标准骨页;校正 mmd_tools 版本(v4.x/Blender 4.2+,旧 v2.x/Blender 3.6,仓库迁 MMD-Blender 组织)与 Cats 现状(原版 4.0 后停更,新版用 Team Neoneko/Tuxedo);补 PMXEditor 准标准ボーン插件 | **新建** concepts/准标准骨骼-semi-standard-bones;tools/mmd_tools, tools/cats-blender-plugin, tools/pmxeditor, concepts/骨骼-bones, index |

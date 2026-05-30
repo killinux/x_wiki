@@ -6,6 +6,9 @@ updated: 2026-05-30
 
 # Blender × MMD 建模知识库 — 内容地图
 
+<!-- updated 2026-05-30: 校正 mmd_tools/Cats 版本兼容性;新增准标准骨骼页 -->
+
+
 > 维护说明见 [CLAUDE.md](CLAUDE.md);用法见 [README.md](README.md);摄入记录见 [log.md](log.md)。
 > status: `stub` 占位 · `draft` 种子内容待校正 · `stable` 已用可靠来源核实。
 
@@ -14,6 +17,7 @@ updated: 2026-05-30
 ### MMD / PMX
 - [[pmx-format]] — PMX 模型格式总览 · *draft*
 - [[骨骼-bones]] — 骨骼命名、IK、付与 · *draft*
+- [[准标准骨骼-semi-standard-bones]] — 准标准骨清单(腕捩/グルーブ/足D…)与补法 · *draft*
 - [[表情-morphs]] — 表情/变形(顶点/骨骼/材质/UV/组) · *draft*
 - [[物理-physics]] — 刚体与关节 · *draft*
 - [[材质-materials]] — Toon / Sphere(SPH/SPA)/ 描边 · *draft*
@@ -25,10 +29,10 @@ updated: 2026-05-30
 - [[xps-材质差异]] — XPS → MMD 材质体系差异与转换 · *draft*
 
 ## 工具 (tools)
-- [[mmd_tools]] — Blender 的 MMD 核心插件(导入/导出) · *draft*
+- [[mmd_tools]] — Blender 的 MMD 核心插件(导入/导出);v4.x=Blender 4.2+,旧 v2.x=Blender 3.6 · *draft*
 - [[xps-tools-blender]] — XPS/XNALara 导入 Blender 插件 · *draft*
-- [[cats-blender-plugin]] — 模型清理优化(骨骼重命名/合并) · *stub*
-- [[pmxeditor]] — PMX 精修工具 · *stub*
+- [[cats-blender-plugin]] — 模型清理优化;原版 4.0 后停更,新版用 Team Neoneko/Tuxedo 分支 · *draft*
+- [[pmxeditor]] — PMX 精修工具;含准标准ボーン追加プラグイン · *draft*
 
 ## 流程 (workflows)
 - [[xps-to-mmd-流程]] — **XPS → Blender → MMD 端到端转换** · *draft*
