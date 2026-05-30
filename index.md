@@ -31,6 +31,7 @@ updated: 2026-05-30
 - [[xps-format]] — XPS 模型格式与数据结构 · *draft*
 - [[xps-骨骼映射]] — XPS → MMD 骨骼名对照与映射策略 · *draft*
 - [[xps-材质差异]] — XPS → MMD 材质体系差异与转换 · *draft*
+- [[uv-贴图打包]] — UV 处理、mesh/材质合并、贴图图集与管理 · *draft*
 - [[坐标系-朝向-pose]] — 轴向/朝向/A-T pose/骨骼roll(扭曲散架根因) · *draft*
 
 ## 工具 (tools)

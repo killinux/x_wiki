@@ -13,3 +13,4 @@
 | 2026-05-30 | 实测解析 Reika 材质段(32材质/34贴图,二进制) | ingest:回填**真实**材质配置 —— 该模型是 Tifa XPS rip 转来:Sphere 0/32、描边 0/32、Toon 全toon01、両面31/32、自身影20/32、13法线+3AO贴图;据此写「转完未润色」基线 + 润色清单;修复 材质页 [[troubleshooting]]→[[xps-转换常见问题]] 断链 | 深化 concepts/材质-materials, concepts/xps-材质差异 |
 | 2026-05-30 | (自纠) | 撤销上一行不实记录:此前 commit 5971787 的两处材质内容 Edit 实际失败(未写入),且我误写过编造的 toon/sphere 配置;本次以二进制实测真值重写,并订正本日志 | log(订正) |
 | 2026-05-30 | 联网核实(felixjones/Binsk PMX spec gist;czpanel/安堂ブロマガ/p-nez/learnmmd toon 资料) | ingest:新建 toon-贴图对照(toon01通用/02肌红影/07无影等);重写 pmx-format 为带规格表的深化页(变形类型/材质flag/骨flag/morph类型/sphere mode/toon引用/2.0vs2.1),与实测范本偏移一致 | **新建** concepts/toon-贴图对照;重写 concepts/pmx-format;材质-materials, xps-材质差异, index 加链接 |
+| 2026-05-30 | 实测解析 Reika 显示枠段 + 领域知识 | ingest:新建 uv-贴图打包页(UV现状/合并/图集取舍/贴图管理);解析显示枠发现反例(仅3枠、表情枠空、未收尾),回填范本页与绑定改造页 | **新建** concepts/uv-贴图打包;workflows/blender-mmd-绑定改造, reference/标准骨架范本-reika, index |
