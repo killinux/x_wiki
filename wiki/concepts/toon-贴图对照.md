@@ -1,7 +1,7 @@
 ---
 title: Toon 贴图对照 / 共有トゥーン toon01–10
 type: concept
-status: draft
+status: stable
 sources:
   - https://czpanel.com/lecture/mmd/pmxe/toonmap/
   - https://ch.nicovideo.jp/andou0409natu/blomaga/ar1239837

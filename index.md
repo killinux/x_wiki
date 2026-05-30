@@ -15,16 +15,16 @@ updated: 2026-05-30
 ## 概念 (concepts)
 
 ### MMD / PMX
-- [[pmx-format]] — PMX 模型格式总览(含规格表) · *draft*
-- [[骨骼-bones]] — 骨骼命名、IK、付与 · *draft*
+- [[pmx-format]] — PMX 模型格式总览(含规格表) · *stable*
+- [[骨骼-bones]] — 骨骼命名、IK、付与 · *stable*
 - [[准标准骨骼-semi-standard-bones]] — 准标准骨清单 + 实测付与系数 · *stable*
-- [[权重-weights]] — 权重与 BDEF/SDEF · *draft*
-- [[表情-morphs]] — 表情/变形(顶点/骨骼/材质/UV/组) · *draft*
+- [[权重-weights]] — 权重与 BDEF/SDEF · *stable*
+- [[表情-morphs]] — 表情/变形(顶点/骨骼/材质/UV/组) · *stable*
 - [[口型-lipsync]] — 对口型(元音 morph) · *draft*
-- [[材质-materials]] — Toon / Sphere(SPH/SPA)/ 描边 · *draft*
-- [[toon-贴图对照]] — 共有 toon01–10 各编号特征与选用 · *draft*
-- [[物理-physics]] — 刚体与关节 · *draft*
-- [[vmd-动作格式]] — VMD 动作/表情/相机数据格式 · *draft*
+- [[材质-materials]] — Toon / Sphere(SPH/SPA)/ 描边 · *stable*
+- [[toon-贴图对照]] — 共有 toon01–10 各编号特征与选用 · *stable*
+- [[物理-physics]] — 刚体与关节 · *stable*
+- [[vmd-动作格式]] — VMD 动作/表情/相机数据格式 · *stable*
 
 ### XPS / XNALara
 - [[xps-format]] — XPS 模型格式与数据结构 · *draft*

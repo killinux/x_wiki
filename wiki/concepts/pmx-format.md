@@ -1,7 +1,7 @@
 ---
 title: PMX 模型格式
 type: concept
-status: draft
+status: stable
 sources:
   - 种子内容/通用领域知识
   - https://gist.github.com/felixjones/f8a06bd48f9da9a4539f  # PMX 2.0/2.1 spec

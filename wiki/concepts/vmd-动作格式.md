@@ -1,7 +1,7 @@
 ---
 title: VMD 动作格式 / Vocaloid Motion Data
 type: concept
-status: draft
+status: stable
 sources:
   - https://mikumikudance.fandom.com/wiki/VMD_file_format
   - VMD format gist(社区规格)

@@ -1,9 +1,12 @@
 ---
 title: 表情 / モーフ / morphs
 type: concept
-status: draft
-sources: [种子内容/通用领域知识]
-updated: 2026-05-29
+status: stable
+sources:
+  - 通用领域知识
+  - https://gist.github.com/felixjones/f8a06bd48f9da9a4539f  # morph 类型 0-10
+  - 实测 [[标准骨架范本-reika]]
+updated: 2026-05-30
 ---
 
 # 表情 / 变形 (モーフ / morphs)
