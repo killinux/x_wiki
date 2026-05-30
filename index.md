@@ -24,6 +24,7 @@ updated: 2026-05-30
 - [[表情-morphs]] — 表情/变形(顶点/骨骼/材质/UV/组) · *draft*
 - [[物理-physics]] — 刚体与关节 · *draft*
 - [[材质-materials]] — Toon / Sphere(SPH/SPA)/ 描边 · *draft*
+- [[toon-贴图对照]] — 共有 toon01–10 各编号特征与选用 · *draft*
 - [[权重-weights]] — 权重与 BDEF/SDEF · *draft*
 
 ### XPS / XNALara
