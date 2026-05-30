@@ -15,19 +15,16 @@ updated: 2026-05-30
 ## 概念 (concepts)
 
 ### MMD / PMX
-- [[pmx-format]] — PMX 模型格式总览 · *draft*
+- [[pmx-format]] — PMX 模型格式总览(含规格表) · *draft*
 - [[骨骼-bones]] — 骨骼命名、IK、付与 · *draft*
 - [[准标准骨骼-semi-standard-bones]] — 准标准骨清单 + 实测付与系数 · *stable*
-
-### 参考范本 (reference)
-- [[标准骨架范本-reika]] — 一具完整 PMX 的实测骨架/IK/付与/物理(263 骨) · *stable*
+- [[权重-weights]] — 权重与 BDEF/SDEF · *draft*
 - [[表情-morphs]] — 表情/变形(顶点/骨骼/材质/UV/组) · *draft*
-- [[物理-physics]] — 刚体与关节 · *draft*
+- [[口型-lipsync]] — 对口型(元音 morph) · *draft*
 - [[材质-materials]] — Toon / Sphere(SPH/SPA)/ 描边 · *draft*
 - [[toon-贴图对照]] — 共有 toon01–10 各编号特征与选用 · *draft*
-- [[权重-weights]] — 权重与 BDEF/SDEF · *draft*
+- [[物理-physics]] — 刚体与关节 · *draft*
 - [[vmd-动作格式]] — VMD 动作/表情/相机数据格式 · *draft*
-- [[口型-lipsync]] — 对口型(元音 morph) · *draft*
 
 ### XPS / XNALara
 - [[xps-format]] — XPS 模型格式与数据结构 · *draft*
@@ -51,11 +48,11 @@ updated: 2026-05-30
 ## 使用 / 生态 (usage)
 - [[mmd本体-使用]] — MikuMikuDance.exe 加载模型/动作/物理/出片 · *draft*
 - [[外部親-accessory]] — 外部親与配件(拿道具/戴饰品) · *draft*
+- [[mme-特效]] — 见上「工具」:MikuMikuEffect / Ray-MMD
 - [[素材站与规约-resources]] — 模型/动作来源站点与使用规约 · *draft*
 
 ## 参考 (reference)
-- [[标准骨架范本-reika]] — 一具完整 PMX 的实测骨架/IK/付与/物理 · *stable*
-- [[素材站与规约-resources]] — 见上「使用 / 生态」
+- [[标准骨架范本-reika]] — 一具完整 PMX 的实测骨架/IK/付与/物理/显示枠(263 骨) · *stable*
 
 ## 排查 (troubleshooting)
 - [[xps-转换常见问题]] — XPS → MMD 转换常见报错与解决 · *draft*
