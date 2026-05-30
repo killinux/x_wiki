@@ -59,11 +59,12 @@ updated: 2026-05-30
 
 ## 参考 (reference)
 - [[标准骨架范本-reika]] — 一具完整 PMX 的实测骨架/IK/付与/物理/显示枠(263 骨) · *stable*
+- [[术语对照-glossary]] — 中日英术语对照总表(全 wiki 枢纽) · *stable*
 
 ## 排查 (troubleshooting)
 - [[xps-转换常见问题]] — XPS → MMD 转换常见报错与解决 · *stable*
 - [[导出前qa清单]] — 导出 PMX 前逐项自检 · *stable*
-- [[troubleshooting/README|问题排查索引]] · *stub*
+- [[troubleshooting/README|问题排查索引]] — 症状速查表 · *stable*
 
 ---
 
