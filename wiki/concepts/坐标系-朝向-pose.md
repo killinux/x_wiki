@@ -1,7 +1,7 @@
 ---
 title: 坐标系 / 朝向 / A-pose・T-pose / 骨骼roll
 type: concept
-status: draft
+status: stable
 sources:
   - 种子内容/通用领域知识
   - 实测对照 [[标准骨架范本-reika]]
