@@ -1,7 +1,7 @@
 ---
 title: 内容地图
 type: index
-updated: 2026-05-29
+updated: 2026-05-30
 ---
 
 # Blender × MMD 建模知识库 — 内容地图
@@ -10,6 +10,8 @@ updated: 2026-05-29
 > status: `stub` 占位 · `draft` 种子内容待校正 · `stable` 已用可靠来源核实。
 
 ## 概念 (concepts)
+
+### MMD / PMX
 - [[pmx-format]] — PMX 模型格式总览 · *draft*
 - [[骨骼-bones]] — 骨骼命名、IK、付与 · *draft*
 - [[表情-morphs]] — 表情/变形(顶点/骨骼/材质/UV/组) · *draft*
@@ -17,15 +19,23 @@ updated: 2026-05-29
 - [[材质-materials]] — Toon / Sphere(SPH/SPA)/ 描边 · *draft*
 - [[权重-weights]] — 权重与 BDEF/SDEF · *draft*
 
+### XPS / XNALara
+- [[xps-format]] — XPS 模型格式与数据结构 · *draft*
+- [[xps-骨骼映射]] — XPS → MMD 骨骼名对照与映射策略 · *draft*
+- [[xps-材质差异]] — XPS → MMD 材质体系差异与转换 · *draft*
+
 ## 工具 (tools)
 - [[mmd_tools]] — Blender 的 MMD 核心插件(导入/导出) · *draft*
-- [[cats-blender-plugin]] — 模型清理优化 · *stub*
+- [[xps-tools-blender]] — XPS/XNALara 导入 Blender 插件 · *draft*
+- [[cats-blender-plugin]] — 模型清理优化(骨骼重命名/合并) · *stub*
 - [[pmxeditor]] — PMX 精修工具 · *stub*
 
 ## 流程 (workflows)
+- [[xps-to-mmd-流程]] — **XPS → Blender → MMD 端到端转换** · *draft*
 - [[blender-to-pmx-导出流程]] — 从建模到 MMD 可用的端到端路线 · *draft*
 
 ## 排查 (troubleshooting)
+- [[xps-转换常见问题]] — XPS → MMD 转换常见报错与解决 · *draft*
 - [[troubleshooting/README|问题排查索引]] · *stub*
 
 ---

@@ -32,4 +32,13 @@ MMD 材质偏卡通渲染(NPR),与 Blender 的 PBR 思路不同,导出时要做�
 
 参见 [[pmx-format]]、[[权重-weights]]、[[blender-to-pmx-导出流程]]。
 
+## XPS 材质 → MMD 材质
+
+XPS 使用 render group 编号控制材质行为(支持法线贴图、specular 等现代特性),与 MMD 的 Toon 渲染差异较大。转换时:
+- Diffuse 贴图直接沿用
+- 法线贴图、specular 贴图需丢弃(标准 MMD 不支持)或烘焙进 diffuse
+- 需手动设置 Toon 编号、Sphere 贴图、描边参数
+
+详见 [[xps-材质差异]]。
+
 > 待补充:mmd_tools 材质面板各字段 ↔ PMX 字段的精确对应——ingest 插件文档后补全。

@@ -29,4 +29,14 @@ updated: 2026-05-29
 
 参见 [[pmx-format]]、[[blender-to-pmx-导出流程]]。
 
+## XPS 权重转换注意事项
+
+XPS 模型支持最多 4 骨权重(类似 BDEF4),导入 Blender 后权重数据通常保留完好。但转换过程中需注意:
+- **骨骼重命名后**,对应的 Vertex Group 名也必须同步修改,否则权重失效。Cats 的 Fix Model 会自动处理;手动改名时要逐个同步。
+- **新增骨骼**(center、IK 等)是纯控制骨,通常不需要权重。
+- **合并 mesh 时**确保各 mesh 的 Vertex Group 名称指向同一骨骼,否则权重会冲突。
+- XPS 权重来自游戏引擎,质量通常不错,但某些关节(肩、腕)可能需要手动平滑。
+
+详见 [[xps-骨骼映射]]、[[xps-to-mmd-流程]]。
+
 > 待补充:Blender 权重 → PMX SDEF 的具体转换流程——ingest 后补全。
