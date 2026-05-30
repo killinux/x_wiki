@@ -1,7 +1,7 @@
 ---
 title: MMD 本体使用(MikuMikuDance.exe)
 type: workflow
-status: draft
+status: stable
 sources:
   - https://learnmmd.com/
 updated: 2026-05-30

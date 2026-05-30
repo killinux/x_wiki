@@ -1,7 +1,7 @@
 ---
 title: MME / MikuMikuEffect 与特效(Ray-MMD 等)
 type: tool
-status: draft
+status: stable
 sources:
   - https://learnmmd.com/
   - https://github.com/ray-cast/ray-mmd

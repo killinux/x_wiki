@@ -1,7 +1,7 @@
 ---
 title: 口型 / リップシンク / lip sync
 type: concept
-status: draft
+status: stable
 sources:
   - https://learnmmd.com/
 updated: 2026-05-30

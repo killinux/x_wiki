@@ -1,7 +1,7 @@
 ---
 title: XPS → MMD 转换常见问题
 type: troubleshooting
-status: draft
+status: stable
 sources: [种子内容/通用领域知识]
 updated: 2026-05-30
 ---

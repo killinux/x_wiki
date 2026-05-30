@@ -1,7 +1,7 @@
 ---
 title: UV / 贴图打包(XPS→MMD)
 type: concept
-status: draft
+status: stable
 sources:
   - 种子内容/通用领域知识
   - 实测 ~/Reika18_Children.pmx → [[标准骨架范本-reika]]

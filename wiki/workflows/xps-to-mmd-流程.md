@@ -1,7 +1,7 @@
 ---
 title: XPS → Blender → MMD 端到端转换流程
 type: workflow
-status: draft
+status: stable
 sources: [种子内容/通用领域知识]
 updated: 2026-05-30
 ---

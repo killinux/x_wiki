@@ -1,7 +1,7 @@
 ---
 title: XPS / XNALara 模型格式
 type: concept
-status: draft
+status: stable
 sources: [种子内容/通用领域知识]
 updated: 2026-05-30
 ---

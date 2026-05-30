@@ -1,7 +1,7 @@
 ---
 title: Blender 端 MMD 绑定改造(建 IK / 付与 / 显示枠 / 英文名)
 type: workflow
-status: draft
+status: stable
 sources:
   - 种子内容/通用领域知识
   - 实测对照 [[标准骨架范本-reika]]

@@ -1,7 +1,7 @@
 ---
 title: mmd_tools (Blender 插件)
 type: tool
-status: draft
+status: stable
 sources:
   - 种子内容/通用领域知识
   - https://github.com/MMD-Blender/blender_mmd_tools
@@ -52,4 +52,4 @@ updated: 2026-05-30
 
 完整导出路线见 [[blender-to-pmx-导出流程]]。
 
-> 待补充:你本机实际使用的 mmd_tools 具体版本号与对应 Blender 版本——确认后填入。
+> 提示:升级 Blender 前,在 Edit → Preferences → Get Extensions 核对本机 mmd_tools 版本与上表对应关系。

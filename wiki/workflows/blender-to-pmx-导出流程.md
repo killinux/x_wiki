@@ -1,7 +1,7 @@
 ---
 title: Blender → PMX 端到端流程
 type: workflow
-status: draft
+status: stable
 sources: [种子内容/通用领域知识]
 updated: 2026-05-29
 ---
@@ -53,4 +53,4 @@ updated: 2026-05-29
 - [ ] 物理不爆炸、不穿模
 - [ ] 材质 Toon/Sphere/描边在 MMD 本体里正确
 
-> 待补充:每步的具体面板按钮与快捷键——ingest 你跟的教程后逐步细化。
+> 各步骤的具体面板操作分散在专页:建 IK/付与/显示枠见 [[blender-mmd-绑定改造]];导出选项与贴图见 [[导出前qa清单]];PMXEditor 精修见 [[pmxeditor]]。

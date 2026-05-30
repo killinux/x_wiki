@@ -1,7 +1,7 @@
 ---
 title: Cats Blender Plugin
 type: tool
-status: draft
+status: stable
 sources:
   - 种子内容/通用领域知识
   - https://github.com/absolute-quantum/cats-blender-plugin

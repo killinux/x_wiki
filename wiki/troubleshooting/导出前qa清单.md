@@ -1,7 +1,7 @@
 ---
 title: 导出前 QA 清单(XPS→MMD)
 type: troubleshooting
-status: draft
+status: stable
 sources:
   - 汇总自本 wiki 各页
 updated: 2026-05-30

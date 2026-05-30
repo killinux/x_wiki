@@ -1,7 +1,7 @@
 ---
 title: 素材站与使用规约(模型/动作来源)
 type: reference
-status: draft
+status: stable
 sources:
   - https://bowlroll.net/
   - https://3d.nicovideo.jp/

@@ -1,7 +1,7 @@
 ---
 title: 外部親 / アクセサリ(配件绑定)
 type: workflow
-status: draft
+status: stable
 sources:
   - https://learnmmd.com/
 updated: 2026-05-30
