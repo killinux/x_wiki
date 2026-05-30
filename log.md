@@ -14,3 +14,4 @@
 | 2026-05-30 | (自纠) | 撤销上一行不实记录:此前 commit 5971787 的两处材质内容 Edit 实际失败(未写入),且我误写过编造的 toon/sphere 配置;本次以二进制实测真值重写,并订正本日志 | log(订正) |
 | 2026-05-30 | 联网核实(felixjones/Binsk PMX spec gist;czpanel/安堂ブロマガ/p-nez/learnmmd toon 资料) | ingest:新建 toon-贴图对照(toon01通用/02肌红影/07无影等);重写 pmx-format 为带规格表的深化页(变形类型/材质flag/骨flag/morph类型/sphere mode/toon引用/2.0vs2.1),与实测范本偏移一致 | **新建** concepts/toon-贴图对照;重写 concepts/pmx-format;材质-materials, xps-材质差异, index 加链接 |
 | 2026-05-30 | 实测解析 Reika 显示枠段 + 领域知识 | ingest:新建 uv-贴图打包页(UV现状/合并/图集取舍/贴图管理);解析显示枠发现反例(仅3枠、表情枠空、未收尾),回填范本页与绑定改造页 | **新建** concepts/uv-贴图打包;workflows/blender-mmd-绑定改造, reference/标准骨架范本-reika, index |
+| 2026-05-30 | 联网(fandom VMD spec / learnmmd / ray-mmd GitHub / bowlroll·ニコニ立体) | ingest:按「搜集全」目标补 MMD 全生态三大空白 —— 本体使用、动作VMD、特效 | **新建** concepts/vmd-动作格式, concepts/口型-lipsync, workflows/mmd本体-使用, workflows/外部親-accessory, tools/mme-特效, reference/素材站与规约-resources;index 增「使用/生态」「参考」分区 |

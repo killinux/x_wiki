@@ -26,6 +26,8 @@ updated: 2026-05-30
 - [[材质-materials]] — Toon / Sphere(SPH/SPA)/ 描边 · *draft*
 - [[toon-贴图对照]] — 共有 toon01–10 各编号特征与选用 · *draft*
 - [[权重-weights]] — 权重与 BDEF/SDEF · *draft*
+- [[vmd-动作格式]] — VMD 动作/表情/相机数据格式 · *draft*
+- [[口型-lipsync]] — 对口型(元音 morph) · *draft*
 
 ### XPS / XNALara
 - [[xps-format]] — XPS 模型格式与数据结构 · *draft*
@@ -39,11 +41,21 @@ updated: 2026-05-30
 - [[xps-tools-blender]] — XPS/XNALara 导入 Blender 插件 · *draft*
 - [[cats-blender-plugin]] — 模型清理优化;原版 4.0 后停更,新版用 Team Neoneko/Tuxedo 分支 · *draft*
 - [[pmxeditor]] — PMX 精修工具;含准标准ボーン追加プラグイン · *draft*
+- [[mme-特效]] — MikuMikuEffect / Ray-MMD 等渲染特效 · *draft*
 
 ## 流程 (workflows)
 - [[xps-to-mmd-流程]] — **XPS → Blender → MMD 端到端转换** · *draft*
 - [[blender-mmd-绑定改造]] — Blender 端建 IK/付与/显示枠/英文名 · *draft*
 - [[blender-to-pmx-导出流程]] — 从建模到 MMD 可用的端到端路线 · *draft*
+
+## 使用 / 生态 (usage)
+- [[mmd本体-使用]] — MikuMikuDance.exe 加载模型/动作/物理/出片 · *draft*
+- [[外部親-accessory]] — 外部親与配件(拿道具/戴饰品) · *draft*
+- [[素材站与规约-resources]] — 模型/动作来源站点与使用规约 · *draft*
+
+## 参考 (reference)
+- [[标准骨架范本-reika]] — 一具完整 PMX 的实测骨架/IK/付与/物理 · *stable*
+- [[素材站与规约-resources]] — 见上「使用 / 生态」
 
 ## 排查 (troubleshooting)
 - [[xps-转换常见问题]] — XPS → MMD 转换常见报错与解决 · *draft*
@@ -53,6 +65,6 @@ updated: 2026-05-30
 ---
 
 ## 现状与下一步
-- 现有内容为**种子页面**(基于通用领域知识),用来固化页面约定与交叉引用结构。
-- 它们都标了「待补充」点。请用你的可靠资料 `ingest` 来校正版本敏感信息(尤其 Blender / mmd_tools 版本兼容性)和具体操作步骤。
-- 建议优先补:① 你用的 Blender + mmd_tools 版本;② 半标准骨架清单;③ 你常踩的坑(进 troubleshooting)。
+- 覆盖范围已从「XPS→MMD 转换/建模线」扩展到 **MMD 全生态**:格式(PMX/VMD/XPS)、骨骼/权重/材质/表情/物理/UV、工具链、本体使用、动作/口型、特效、素材规约。
+- 多数页为 `draft`(领域知识 + 部分二进制实测);[[标准骨架范本-reika]] 与准标准骨页已 `stable`。
+- 下一步:把高频 draft 页逐个核实到 stable;有新素材(VMD/MME 工程等)可继续 `ingest` 出实测真值。
