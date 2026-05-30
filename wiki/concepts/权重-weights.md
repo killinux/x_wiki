@@ -39,4 +39,13 @@ XPS 模型支持最多 4 骨权重(类似 BDEF4),导入 Blender 后权重数据�
 
 详见 [[xps-骨骼映射]]、[[xps-to-mmd-流程]]。
 
-> 待补充:Blender 权重 → PMX SDEF 的具体转换流程——ingest 后补全。
+## Blender 权重 → PMX SDEF / 多骨的断层
+
+这是 Blender↔MMD 的已知不对等点:
+
+- **Blender 没有 SDEF 概念**。从 Blender 导出的权重都是 BDEF 系。要 SDEF(改善腕/肩扭转塌陷),需在 [[pmxeditor]] 里把目标顶点的 BDEF2 **转为 SDEF**(PMXEditor 有批量转换/SDEF 自动设置功能)。
+- **每顶点超过 4 骨**:Blender 顶点可绑任意多骨,但 PMX 最多 4 骨(BDEF4/QDEF)。导出时 [[mmd_tools]] 会**裁剪到权重最大的 4 根并重新归一化**——若关键骨权重很小会被丢。导出前用 **Weight Tools → Limit Total = 4** 自己先清理,结果更可控。
+- **控制骨不刷权重**:IK 骨(足ＩＫ/つま先ＩＫ)、付与父骨(肩P、足IK親)、グルーブ/センター 等是**纯控制骨,顶点组应为空**;给它们刷权重反而导致动作时部位乱飞。参见 [[标准骨架范本-reika]] 的骨清单(那些骨都不承载蒙皮)。
+- **D 系足骨承载形变**:足D/ひざD/足首D 才是实际蒙皮的骨(由付与跟随可见足骨,系数 1.0),做 D 系绑定时把腿部权重转到 D 骨。见 [[准标准骨骼-semi-standard-bones]]。
+
+> 实务:先在 Blender 把 BDEF 权重刷干净、Limit Total=4、控制骨清空,导出后再到 PMXEditor 补 SDEF。

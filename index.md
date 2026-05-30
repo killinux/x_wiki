@@ -30,6 +30,7 @@ updated: 2026-05-30
 - [[xps-format]] — XPS 模型格式与数据结构 · *draft*
 - [[xps-骨骼映射]] — XPS → MMD 骨骼名对照与映射策略 · *draft*
 - [[xps-材质差异]] — XPS → MMD 材质体系差异与转换 · *draft*
+- [[坐标系-朝向-pose]] — 轴向/朝向/A-T pose/骨骼roll(扭曲散架根因) · *draft*
 
 ## 工具 (tools)
 - [[mmd_tools]] — Blender 的 MMD 核心插件(导入/导出);v4.x=Blender 4.2+,旧 v2.x=Blender 3.6 · *draft*
@@ -39,10 +40,12 @@ updated: 2026-05-30
 
 ## 流程 (workflows)
 - [[xps-to-mmd-流程]] — **XPS → Blender → MMD 端到端转换** · *draft*
+- [[blender-mmd-绑定改造]] — Blender 端建 IK/付与/显示枠/英文名 · *draft*
 - [[blender-to-pmx-导出流程]] — 从建模到 MMD 可用的端到端路线 · *draft*
 
 ## 排查 (troubleshooting)
 - [[xps-转换常见问题]] — XPS → MMD 转换常见报错与解决 · *draft*
+- [[导出前qa清单]] — 导出 PMX 前逐项自检 · *draft*
 - [[troubleshooting/README|问题排查索引]] · *stub*
 
 ---

@@ -37,4 +37,22 @@ MMD 表情面板按类别分组:**眉 / 目 / 口 / その他(其他)**。建模
 
 参见 [[pmx-format]]、[[骨骼-bones]]。
 
-> 待补充:Blender Shape Key 命名与 MMD 日文表情名的映射约定——ingest 后补全。
+## 给无表情的 XPS 模型从零做表情
+
+XPS 模型**没有任何 morph**,要么自建要么放弃。最小可用集:
+
+1. **眨眼** `まばたき`(目)— Basis 上把上眼皮顶点下移闭合。
+2. **元音口型** `あ・い・う・え・お`(口)— 对口型基础,务必做齐。
+3. **笑** `笑い`/眨单眼 `ウィンク`(目)— 锦上添花。
+
+做法:在 Blender 用 **Shape Key**,每个表情一个 key,基于 Basis 雕刻;导出时 [[mmd_tools]] 转为 PMX 顶点 morph。
+
+## Shape Key 命名映射
+
+- VMD 按**日文 morph 名**匹配,所以 **Shape Key 直接用日文名**(`まばたき`、`あ`…),导出后就是对的 morph 名,省去改名。
+- mmd_tools 导出时可在 morph 面板指定每个 morph 的**分类面板**(眉/目/口/その他)。
+- 若 Shape Key 用了英文(blink、a…),导出后要在 mmd_tools/PMXEditor 里改成日文名,否则口型/表情动作对不上。
+
+## 注意:表情不一定是顶点 morph
+
+实测范本 [[标准骨架范本-reika]] 的 **19 个表情全是骨骼 morph(表情骨驱动)**,没有一个顶点 morph。即也存在「用骨骼做脸」的流派。但从 Blender Shape Key 走 [[mmd_tools]] 导出的是**顶点 morph**(最通用做法);骨骼 morph 需在 PMXEditor 另建。新手按顶点 morph 做即可。
