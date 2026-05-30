@@ -25,6 +25,9 @@ updated: 2026-05-30
 - [[toon-贴图对照]] — 共有 toon01–10 各编号特征与选用 · *stable*
 - [[物理-physics]] — 刚体与关节 · *stable*
 - [[vmd-动作格式]] — VMD 动作/表情/相机数据格式 · *stable*
+- [[vpd-姿势格式]] — VPD 单帧姿势数据 · *stable*
+- [[相机工作-camera]] — 相机帧/补间曲线/镜头 · *stable*
+- [[x配件与舞台]] — .x 配件 / 舞台格式 · *stable*
 
 ### XPS / XNALara
 - [[xps-format]] — XPS 模型格式与数据结构 · *stable*
@@ -39,11 +42,14 @@ updated: 2026-05-30
 - [[cats-blender-plugin]] — 模型清理优化;原版 4.0 后停更,新版用 Team Neoneko/Tuxedo 分支 · *stable*
 - [[pmxeditor]] — PMX 精修工具;含准标准ボーン追加プラグイン · *stable*
 - [[mme-特效]] — MikuMikuEffect / Ray-MMD 等渲染特效 · *stable*
+- [[mmd兼容编辑器-mmm-nanoem]] — MMM(动作强)/ nanoem(Mac) · *stable*
 
 ## 流程 (workflows)
 - [[xps-to-mmd-流程]] — **XPS → Blender → MMD 端到端转换** · *stable*
 - [[blender-mmd-绑定改造]] — Blender 端建 IK/付与/显示枠/英文名 · *stable*
 - [[blender-to-pmx-导出流程]] — 从建模到 MMD 可用的端到端路线 · *stable*
+- [[模型改造-移植]] — 体型改变/换衣换发/部件移植 · *stable*
+- [[mmd-to-vrchat-unity]] — PMX → VRChat/Unity 移植 · *stable*
 
 ## 使用 / 生态 (usage)
 - [[mmd本体-使用]] — MikuMikuDance.exe 加载模型/动作/物理/出片 · *stable*
